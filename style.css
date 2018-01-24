@@ -1,0 +1,64 @@
+	::-webkit-input-placeholder {color:#DCDCDC;}
+	::-moz-placeholder          {color:#DCDCDC;}/* Firefox 19+ */
+	:-moz-placeholder           {color:#DCDCDC;}/* Firefox 18- */
+	:-ms-input-placeholder      {color:#DCDCDC;}
+
+body {
+    max-width: 1920px;
+    max-height: 1080px;
+   }
+
+#container {
+	position:absolute;
+	margin-top:23%;
+	margin-left:36%;
+}
+
+#input {
+	margin: 5px;
+    padding: 5px 5px 5px 7px;
+    outline: none;
+    width: 270px;
+    border: 1px solid #A9A9A9;
+    outline: none;
+    font: 14px/1 Geneva, Arial, Helvetica, sans-serif;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    width: 80px;
+    border: none;
+    padding: 5px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+
+.undo {
+	background-color: #737373; 
+    color: #e6e6e6; 
+}
+
+.undo:hover {
+	background-color: #8c8c8c;
+    color: white;
+}
+
+.redo {
+    background-color: #737373; 
+    color: #e6e6e6; 
+}
+
+.redo:hover {
+    background-color: #8c8c8c;
+    color: white;
+}
+
+button:focus {
+outline: none !important
+}
